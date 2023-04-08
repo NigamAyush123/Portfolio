@@ -1,0 +1,150 @@
+body{
+    background: black;
+    color:white;
+    
+    
+    
+}
+#preloader{
+    background : white url(images/preloader.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.container-fluid{
+    display: flex;
+    width: 100vh;
+    
+    
+  
+}
+.nav{
+    width: 500%;
+    height: 100%;
+    margin: auto;
+   
+}
+.full{
+    background: black;
+    display: flex;
+    
+    
+}
+.text{
+    color:white;
+    
+font-family: 'Permanent Marker', cursive;
+
+    
+}
+.full .text .hi{
+    padding-left: 50px;
+    padding-top: 25px;
+   color:#0E8388;
+    
+
+}
+.full .text .hi .wel{
+    padding-left: 80px;
+    padding-top: 15px;
+   
+    
+}
+.full .text ::before{
+     content: attr(data-text);
+     position: absolute;
+     top:430px;
+     width: 0;
+     left: 80px;
+     height: auto;
+     color: green;
+     /* -webkit-text-stroke: 0vw blue ; */
+     border-right: 2px solid green;
+     overflow: hidden;
+     animation: animate 10s linear infinite;
+}
+@keyframes animate{
+0%,10%,100%{
+    width: 0;
+
+}
+70%,90%
+{
+   width: 18%;
+}
+}
+.full .text .Ayush{
+    padding-left: 30px;
+    padding-top: 5px;  
+}
+.full {
+    display: flex;
+}
+.About .myself{
+    padding-left: 120px;
+    font-size: 26px;
+    font-family: 'Dancing Script', cursive;
+    
+   
+    
+}
+.skill{
+    background: black;
+    color: white;
+
+    
+
+}
+.About{
+    background: black;
+    color: white;
+
+}
+.colo{
+    background: black;
+}
+
+#con{
+    color:#2E4F4F;
+    
+}
+#pr{
+    color:#0E8388;
+    font-family: 'Permanent Marker', cursive;
+}
+#about{
+    color: #0E8388;
+    font-family: 'Permanent Marker', cursive;
+}
+#skill{
+    color: #0E8388;
+    font-family: 'Permanent Marker', cursive;
+
+}
+.con{
+    color: #0E8388;
+    font-family: 'Permanent Marker', cursive;
+}
+#pro{
+    color: #0E8388;
+    font-family: 'Permanent Marker', cursive;
+}
+.col{
+    color: aqua;
+}
+.About .who{
+    color: aquamarine;
+}
+.card-body{
+    background: #F3E8FF;
+}
+.card-title{
+    background: gray;
+}
+
+.card-text{
+    font-family: 'Permanent Marker', cursive;
+        
+    
+}
